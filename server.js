@@ -10,7 +10,7 @@ app.get("/url", (req, res, next) => {
     res.json(["Tony","Lisa","Michael","Ginger","Food"]);
    });
 
-const port = process.port.env.port || 3000;
+const port = process.env.port || 3000;
 app.listen(port, function () {
 
 
