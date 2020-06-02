@@ -1,0 +1,22 @@
+{
+  "name": "nodetesteb",
+  "version": "1.0.0",
+  "description": "testing eb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennyjohansson/nodetest.git"
+  },
+  "author": "Benny Johansson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bennyjohansson/nodetest/issues"
+  },
+  "homepage": "https://github.com/bennyjohansson/nodetest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
