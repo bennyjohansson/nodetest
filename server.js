@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.get("/url", (req, res, next) => {
+app.get("/", (req, res, next) => {
     res.json(["Tony","Lisa","Michael","Ginger","Food"]);
    });
 
