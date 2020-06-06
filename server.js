@@ -7,9 +7,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/", (req, res, next) => {
-
-    res.json(["Tony","Lisa","Michael","Ginger","Food"]);
-  
+res.sendFile('index.html');
+    //res.json(["Tony","Lisa","Michael","Ginger","Food"]);
+    
 });
 
 const port = process.env.port || 3000;
