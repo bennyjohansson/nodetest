@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.get("/", (req, res, next) => {
-res.sendFile('index.html');
+res.sendFile(path.join(__dirname+'/index.html'));
     //res.json(["Tony","Lisa","Michael","Ginger","Food"]);
     
 });
